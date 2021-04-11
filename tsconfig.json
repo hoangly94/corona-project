@@ -1,0 +1,31 @@
+{
+    "compilerOptions": {
+      "lib": ["dom", "dom.iterable", "esnext"],
+      "allowJs": true,
+      "allowSyntheticDefaultImports": true,
+      "skipLibCheck": true,
+      "esModuleInterop": true,
+      "strict": true,
+      "forceConsistentCasingInFileNames": true,
+      "moduleResolution": "node",
+      "resolveJsonModule": true,
+      "isolatedModules": false,
+      "noEmit": true,
+      "jsx": "react",
+      "plugins": [
+        {
+          "name": "typescript-plugin-css-modules",
+          "options": {
+            "classnameTransform": "dashes",
+            "customMatcher": "\\.m\\.css$",
+            "customRenderer": "./myRenderer.js",
+            "dotenvOptions": {},
+            "postCssOptions": {},
+            "rendererOptions": {}
+          }
+        }
+      ]
+    },
+    "include": ["src"]
+  }
+  //typescript-plugin-css-modules

@@ -1,0 +1,61 @@
+@import '../../_settings/_variables.css';
+
+
+.white-theme{
+  color: var(--white-theme-text-color);
+  background-color: var(--white-theme-background-color);
+  border-color: var(--white-theme-border-color);
+}
+
+.dark-theme{
+  color: var(--dark-theme-text-color);
+  background-color: var(--dark-theme-background-color);
+  border-color: var(--dark-theme-border-color);
+}
+
+
+.link-button {
+  &{
+    display:inline-block;
+    text-decoration:none;
+    font-size:15px;
+  }
+  &-transparent-background-border{
+    display:inline-block;
+    text-decoration:none;
+    font-size:15px;
+    background-color: transparent;
+    border: 1px solid;
+  }
+}
+
+/* size */
+.s2 {
+  font-size: 5px;
+}
+
+.s1 {
+  font-size: 8px;
+}
+
+.s {
+  font-size: 12px;
+}
+
+.m {
+  font-size: 15px;
+  padding: 5px 18px;
+}
+
+.l {
+  font-size: 18px;
+}
+
+.l1 {
+  font-size: 22px;
+}
+
+.l2 {
+  font-size: 28px;
+}
+
